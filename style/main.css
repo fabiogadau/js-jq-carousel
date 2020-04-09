@@ -55,8 +55,13 @@ body {
   border-radius: 50px;
 }
 
+.img1,
 .img2,
 .img3,
 .img4 {
   display: none;
+}
+
+.img.active {
+  display: block;
 }
