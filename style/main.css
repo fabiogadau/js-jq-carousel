@@ -44,11 +44,19 @@ body {
   cursor: pointer;
 }
 
+.dot:hover {
+  background-color: #0066c0;
+}
+
 .container i {
   font-size: 50px;
   cursor: pointer;
   color: #1f3230;
   margin: 0 10px 0;
+}
+
+.container i:hover {
+  color: #0066c0;
 }
 
 .img {
