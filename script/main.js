@@ -14,20 +14,20 @@ $(document).ready( function() {
   var last = $('.last');
 
   prevArrow.click( function() {
-    if (img1.hasClass('active')) {
-      img1.removeClass('active');
-      img1.prev().addClass('active');
-    }
-    else if (img2.hasClass('active')) {
-      img2.removeClass('active');
-      img2.prev().addClass('active');
+    if (img4.hasClass('active')) {
+      img4.removeClass('active');
+      img4.prev().addClass('active');
     }
     else if (img3.hasClass('active')) {
       img3.removeClass('active');
       img3.prev().addClass('active');
     }
-    else if (img4.hasClass('active')) {
-      img4.removeClass('active');
+    else if (img2.hasClass('active')) {
+      img2.removeClass('active');
+      img2.prev().addClass('active');
+    }
+    else if (img1.hasClass('active')) {
+      img1.removeClass('active');
       last.addClass('active');
     }
   });
