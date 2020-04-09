@@ -11,4 +11,52 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: #8cbdc8;
+}
+
+.container {
+  max-width: 1170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.dots {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, .8);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.container i {
+  font-size: 50px;
+  cursor: pointer;
+  color: #1f3230;
+  margin: 0 10px 0;
+}
+
+.img {
+  border-radius: 50px;
+}
+
+.img2,
+.img3,
+.img4 {
+  display: none;
 }
