@@ -48,6 +48,10 @@ body {
   background-color: #0066c0;
 }
 
+.dot.dot-active {
+  background-color: #0066c0;
+}
+
 .container i {
   font-size: 50px;
   cursor: pointer;
@@ -63,10 +67,7 @@ body {
   border-radius: 50px;
 }
 
-.img1,
-.img2,
-.img3,
-.img4 {
+.img {
   display: none;
 }
 
