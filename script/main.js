@@ -46,18 +46,15 @@ $(document).ready( function() {
   // Funzione per tornare indietro
   function back(){
     if (img4.hasClass('active')) {
-      img4.removeClass('active');
-      img4.prev().addClass('active');
+      img4.removeClass('active').prev().addClass('active');
       dot4.removeClass('dot-active').prev().addClass('dot-active');
     }
     else if (img3.hasClass('active')) {
-      img3.removeClass('active');
-      img3.prev().addClass('active');
+      img3.removeClass('active').prev().addClass('active');
       dot3.removeClass('dot-active').prev().addClass('dot-active');
     }
     else if (img2.hasClass('active')) {
-      img2.removeClass('active');
-      img2.prev().addClass('active');
+      img2.removeClass('active').prev().addClass('active');
       dot2.removeClass('dot-active').prev().addClass('dot-active');
     }
     else if (img1.hasClass('active')) {
@@ -71,18 +68,15 @@ $(document).ready( function() {
   // Funzione per andare avanti
   function go(){
     if (img1.hasClass('active')) {
-      img1.removeClass('active');
-      img1.next().addClass('active');
+      img1.removeClass('active').next().addClass('active');
       dot1.removeClass('dot-active').next().addClass('dot-active');
     }
     else if (img2.hasClass('active')) {
-      img2.removeClass('active');
-      img2.next().addClass('active');
+      img2.removeClass('active').next().addClass('active');
       dot2.removeClass('dot-active').next().addClass('dot-active');
     }
     else if (img3.hasClass('active')) {
-      img3.removeClass('active');
-      img3.next().addClass('active');
+      img3.removeClass('active').next().addClass('active');
       dot3.removeClass('dot-active').next().addClass('dot-active');
     }
     else if (img4.hasClass('active')) {
