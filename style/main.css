@@ -8,10 +8,19 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background-color: #8cbdc8;
+}
+
+h1 {
+  margin-bottom: 35px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #0066c0;
+  background-color: azure;
 }
 
 .container {
