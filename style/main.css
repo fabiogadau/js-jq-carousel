@@ -75,12 +75,9 @@ h1 {
 }
 
 .img {
-  border-radius: 50px;
-}
-
-.img {
-  max-width: 1000px;
   display: none; /* Visibile con jQuery */
+  max-width: 1000px;
+  border-radius: 50px;
 }
 
 .img.active {
