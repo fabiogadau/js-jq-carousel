@@ -99,4 +99,16 @@ $(document).ready( function() {
     };
   });
 
+  $('.dot').click(function() {
+    var actualDot = $(this);
+    $('.dot').removeClass('dot-active');
+    actualDot.addClass('dot-active');
+
+    var panel = $(this).attr('data-select');
+
+    $('.img').removeClass('active');
+
+    $('.img[data-select="' + panel + '"]').addClass('active');
+  });
+
 });
